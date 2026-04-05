@@ -1,0 +1,7 @@
+package uk.gov.dwp.uc.pairtest.exception;
+
+public class RepositoryException extends RuntimeException{
+    public RepositoryException(String message){
+        super(message);
+    }
+}
